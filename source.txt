@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 complete the programs fast
+=======
+Do program fast
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0

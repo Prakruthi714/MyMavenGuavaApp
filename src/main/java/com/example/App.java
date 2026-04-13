@@ -4,6 +4,11 @@ package com.example;
  * Hello world!
  *
  */
+<<<<<<< HEAD
+=======
+// Import FileUtils class from Apache Commons IO library
+// This is used to perform file operations like copying files
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
 import org.apache.commons.io.FileUtils;
 
 // Import File class to represent file and directory pathnames
@@ -36,14 +41,26 @@ public class App
         File destFile = new File("destination.txt");
 
         try {
+<<<<<<< HEAD
             
+=======
+            // Copy the contents of source.txt to destination.txt
+            // Using Apache Commons IO FileUtils class
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
             FileUtils.copyFile(sourceFile, destFile);
             
             // Print success message if file is copied
             System.out.println("File copied successfully!");
         } 
         catch (IOException e) {
+<<<<<<< HEAD
            
+=======
+            // If any error occurs during file copying,
+            // this block will handle the exception
+            
+            // Print error message
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
             System.err.println("Error occurred while copying file: " + e.getMessage());
         }
     }

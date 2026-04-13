@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.015" tests="1" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.AppTest" time="0.01" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
+<<<<<<< HEAD
     <property name="java.class.path" value="/home/vboxuser/devops/MyMavenGuavaApp/target/test-classes:/home/vboxuser/devops/MyMavenGuavaApp/target/classes:/home/vboxuser/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/vboxuser/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/vboxuser/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/vboxuser/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/vboxuser/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/vboxuser/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/vboxuser/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/vboxuser/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/vboxuser/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:"/>
+=======
+    <property name="java.class.path" value="/home/vboxuser/Devops/MyMavenGuavaApp/target/test-classes:/home/vboxuser/Devops/MyMavenGuavaApp/target/classes:/home/vboxuser/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/vboxuser/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/vboxuser/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/vboxuser/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/vboxuser/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/vboxuser/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/vboxuser/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/vboxuser/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/vboxuser/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:"/>
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,9 +24,15 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="/home/vboxuser/devops/MyMavenGuavaApp/target/surefire/surefirebooter17664009388987689569.jar /home/vboxuser/devops/MyMavenGuavaApp/target/surefire 2026-03-09T00-12-03_299-jvmRun1 surefire3198266824698950253tmp surefire_04153559358053146047tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/vboxuser/devops/MyMavenGuavaApp/target/test-classes:/home/vboxuser/devops/MyMavenGuavaApp/target/classes:/home/vboxuser/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/vboxuser/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/vboxuser/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/vboxuser/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/vboxuser/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/vboxuser/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/vboxuser/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/vboxuser/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/vboxuser/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:"/>
+=======
+    <property name="sun.java.command" value="/home/vboxuser/Devops/MyMavenGuavaApp/target/surefire/surefirebooter9187943367994854121.jar /home/vboxuser/Devops/MyMavenGuavaApp/target/surefire 2026-02-23T10-28-50_934-jvmRun1 surefire13407813190480824870tmp surefire_02956398416903995229tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/vboxuser/Devops/MyMavenGuavaApp/target/test-classes:/home/vboxuser/Devops/MyMavenGuavaApp/target/classes:/home/vboxuser/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/vboxuser/.m2/repository/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar:/home/vboxuser/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/vboxuser/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/vboxuser/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/vboxuser/.m2/repository/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar:/home/vboxuser/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar:/home/vboxuser/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/vboxuser/.m2/repository/commons-io/commons-io/2.18.0/commons-io-2.18.0.jar:"/>
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/vboxuser"/>
     <property name="user.language" value="en"/>
@@ -26,13 +40,21 @@
     <property name="java.version.date" value="2026-01-20"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
+<<<<<<< HEAD
     <property name="basedir" value="/home/vboxuser/devops/MyMavenGuavaApp"/>
+=======
+    <property name="basedir" value="/home/vboxuser/Devops/MyMavenGuavaApp"/>
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="/home/vboxuser/devops/MyMavenGuavaApp/target/surefire/surefirebooter17664009388987689569.jar"/>
+=======
+    <property name="surefire.real.class.path" value="/home/vboxuser/Devops/MyMavenGuavaApp/target/surefire/surefirebooter9187943367994854121.jar"/>
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.30+7-post-Ubuntu-1ubuntu122.04"/>
     <property name="user.name" value="vboxuser"/>
@@ -45,7 +67,11 @@
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="11.0.30"/>
+<<<<<<< HEAD
     <property name="user.dir" value="/home/vboxuser/devops/MyMavenGuavaApp"/>
+=======
+    <property name="user.dir" value="/home/vboxuser/Devops/MyMavenGuavaApp"/>
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -58,5 +84,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="testApp" classname="com.example.AppTest" time="0.002"/>
+=======
+  <testcase name="testApp" classname="com.example.AppTest" time="0.001"/>
+>>>>>>> 28ad5bfc79164b6517a1b17e497cb645d84e52c0
 </testsuite>
